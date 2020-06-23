@@ -1,0 +1,44 @@
+{"intents": [
+   
+        {"tag": "greetings",
+	 "patterns": ["Hi", "How are you", "Is anyone there?", "hello", "Good day", "What's up", "Hey"],
+	 "responses": ["Hello!", "Good to see you again", "Hi there", "how can i help you"],
+	 "context_set": ""
+	},
+	{"tag": "to_from_locations",
+	 "patterns": ["current location", "start location is what", "traveling from?", "departing from", "leaving from", "what your destination", "destination location is?", "to location", "I am traveling to", "I am headed for", "leaving for", "you are making a round trip"],
+	 "responses": ["San Francisco", "Chicago", "Los Angeles", "Chiang Mai, Thailand", "Portland", "Sapporo, Japan", "Phoenix", "Anchorage, Alaska", "New York", "Santiago, Chile", "Mendoza, Argentina", "Philadelphia", "Jakarta, Indonesia", "Seattle", "Nagoya, Japan", "Dallas", "Sapporo, Japan", "Dallas", "Chicago", "Quito, Ecuador", "Miami", "Cuzco, Peru", "Boston", "Santa Barbara, California", "Monterey, California", "Palm Springs", "Baltimore", "Phoenix", "San Jose, California", "Maui, Hawaii", "San Antonio", "Miami", "Vancouver, Canada", "Johannesburg, South Africa", "San Diego", "Washington D.C.", "San Francisco", "Mumbai, India", " New Delhi, India", "Warsaw, Poland", "San Juan, Puerto Rico", "New Orleans", "Hanoi, Vietnam", "Singapore", "Las Vegas", "Orlando"],
+	 "context_set": ""
+	},
+	{"tag": "prices",
+	 "patterns": ["what's the amount", "the price is what", "what's the cost", "what are your fares", "how much is it", "what are your rates", "how much is flight ticket", "how much will i have to pay"],
+	 "responses": ["$564 for roundtrip", "$96 - Basic economy", "$254 - Regular economy", "from $200 basic economy to $273 regular economy", "$203", "$430", "$602", "fares range from $186 to $600", "$68 - basic economy", "roundtrip is $138", "costs $136"],
+	 "context_set": ""
+	 },
+	 {"tag": "dates",
+	 "patterns": ["dates", "travel dates", "departure date", "what is flight date", "return date", "arrival date", "what dates are available"],
+	 "responses": ["July 10th, 2020", "July 12th, 2020", "July 20th, 2020", "July 25th, 2020", "August 7th, 2020", "August 22nd - 29th, 2020", "September 3rd, 2020", "September 8th, 2020", "September 17th, 2020", "October 5th, 2020", "November 1st, 2020", "October 22nd, 2020", "November 30th, 2020",  "November 19th, 2020", "December 5th, 2020", "December 24th, 2020"],
+	 "context_set": ""
+	 },
+	 {"tag": "Time",
+	 "patterns": ["departure time is", "what is the arrival time", "leaves at what time", "what's arrival time", "landing time is what", "what is time of depature"],
+	 "response": ["4.00pm", "5.00pm", "6.00pm", "7.15am", "8.30pm", "9.30pm", "11.45am", "12.30pm", "1.00am", "2.15pm", "3.35pm", "4.15am"],
+	 "context_set": ""
+	 },
+	 {"tag": "goodbye",
+	 "patterns": ["cya", "see you later", "Goodbye", "I am leaving", "Have a good day"],
+	 "responses": ["see you later", "Goodbye", "Thank you"],
+	 "context_set": ""
+	 },
+	 {"tag": "airlines",
+	 "patterns": ["which airlines are availabe", "which airline do you recommend", "your preferred airline"],
+	 "responses": ["Southwest", "American", "Air Canada", "Alaska Air", "Copa", "Qatar Airways", "jetBlue", "LATAM", "Lufthansa", "LOT Polish", "United", "Etihad", "Emirates", "KLM"],
+	 "context_set": ""
+	 },
+	 { "tag": "out of scope",
+	 "patterns": ["what do you know about football", "do you sell books", "do you lend money", "general business"],
+	 "responses": ["please ask another question"],
+	 "context_set": ""
+	 }
+]
+	 }
