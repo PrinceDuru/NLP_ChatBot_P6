@@ -43,8 +43,8 @@ from dateutil import parser
 import pandas as pd
 import json
 
-os.environ['AMADEUS_API_KEY'] = 'VHCTz7tgEDYivGEGt6NdGQQLDJCtHG0f'
-os.environ['AMADEUS_API_SECRET'] = '6E0KfixgYQOUG9vx'
+os.environ['AMADEUS_API_KEY'] = 'your amadeus api key'
+os.environ['AMADEUS_API_SECRET'] = 'your amadeus api secret'
 
 
 # Amadeus variables
