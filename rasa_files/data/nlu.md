@@ -1,0 +1,293 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey
+- hey hey
+- hello there
+- hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- Yo what up
+
+## intent:request_flight
+- im looking for a flight
+- i want to go on a trip
+- i want to book a flight
+- i want to book a trip
+- need a ticket
+- help me find a flight
+- get me out of here
+- i want to travel
+- i want to fly somewhere
+- can i get a flight
+- find me a flight
+- get me a flight
+- i want to go on a flight
+- i need a flight
+- i want a flight from [new york](origin) to [toronto](destination)
+- get me a flight from [seattle](origin) to [denver](destination)
+- I want to book a flight
+- I want to book a fligt
+- I want to book a flight somewhere
+- i wanna book a flight
+
+## intent:affirm
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- um yes
+- that's correct
+- yes yes
+- right
+- yea
+- yes
+- yes right
+- yes and i dont care
+- right on
+- i love that
+- perfect
+- cool
+- dope
+- great
+- perfect!
+- great!
+
+## intent:deny
+- no
+- no new selection
+- no thanks
+- no thank you
+- uh no
+- breath no
+- do you have something else
+- no this does not work for me
+- not what i want
+- no im good thank you
+- nope
+- nah im good
+
+## intent:inform
+- i'm coming from [toronto](origin)
+- im coming from [new york](origin)
+- starting from [vancouver](origin)
+- start from [los angeles](origin)
+- leave from [chicago](origin)
+- leaving from [dallas](origin)
+- departing from [denver](origin)
+- depart from [seattle](origin)
+- from [miami](origin)
+- i'm going to [florida](destination)
+- im going to [tokyo](destination)
+- i want to go to [new york](destination)
+- i want to get to [denver](destination)
+- to [tokyo](destination)
+- lets go to [miami](destination)
+- let's go to [seattle](destination)
+- i want to go to [new york](destination) from [toronto](origin)
+- get me from [miami](origin) to [dallas](destination)
+- im planning on leaving from [august 14](depart_date) to [september 14](return_date)
+- trip is planned from [august 14](depart_date) to [september 14](return_date)
+- i want to go from [jan 14](depart_date) to [apr 14](return_date)
+- leave on [november 14](depart_date) and get back [december 14](return_date)
+- leave on [october 4](depart_date)
+- i want to leave on [january 12](depart_date)
+- i planned to leave on [february 8]
+- come back [mar 18](return_date)
+- return on [february 9](return_date)
+- planned on being back [april 18](return_date)
+- my budget is [$2000](budget)
+- no more than [1000](budget)
+- max [$400](budget)
+- [100 dollars](budget)
+- 100 - [200](budget)
+- I would like to go to [Tokyo](destination)
+- I would like to leave from [Toronto](origin)
+- I would like to leave on [september 10](depart_date)
+- I want to come back on [september 24](return_date)
+- I would like to come back on [december 24](return_date)
+- My budget is [2000](budget) dollars
+- I want to go to [new york](destination)
+- I am coming from [toronto](origin)
+- I want to leave on [december 10](depart_date)
+- I want to come back on [aug 24](return_date)
+- My budget is [800](budget)
+- I want to go to [paris](destination)
+- I am from [toronto](origin)
+- I want to leave on [jan 12](depart_date)
+- I want to leave on [jan 3](depart_date)
+- I want to leave on [feb 2](depart_date)
+- I want to leave on [feb 18](depart_date)
+- I want to leave on [mar 9](depart_date)
+- I want to leave on [mar 23](depart_date)
+- I want to leave on [apr 24](depart_date)
+- I want to leave on [apr 17](depart_date)
+- I want to leave on [may 12](depart_date)
+- I want to leave on [may 16](depart_date)
+- I want to leave on [june 17](depart_date)
+- I want to leave on [june 16](depart_date)
+- I want to leave on [july 12](depart_date)
+- I want to leave on [july 15](depart_date)
+- I want to leave on [aug 10](depart_date)
+- I want to leave on [aug 2](depart_date)
+- I want to leave on [sept 18](depart_date)
+- I want to leave on [sept 13](depart_date)
+- I want to leave on [oct 10](depart_date)
+- I want to leave on [oct 13](depart_date)
+- I want to leave on [nov 14](depart_date)
+- I want to leave on [dec 17](depart_date)
+- I want to leave on [dec 27](depart_date)
+- I want to leave on [nov 13](depart_date)
+- I want to leave [jan 12](depart_date)
+- I want to leave [jan 3](depart_date)
+- I want to leave [feb 2](depart_date)
+- I want to leave [feb 18](depart_date)
+- I want to leave [mar 9](depart_date)
+- I want to leave [mar 23](depart_date)
+- I want to leave [apr 24](depart_date)
+- I want to leave [apr 17](depart_date)
+- I want to leave [may 12](depart_date)
+- I want to leave [may 16](depart_date)
+- I want to leave [june 17](depart_date)
+- I want to leave [june 16](depart_date)
+- I want to leave [july 12](depart_date)
+- I want to leave [july 15](depart_date)
+- I want to leave [aug 10](depart_date)
+- I want to leave [aug 2](depart_date)
+- I want to leave [sept 18](depart_date)
+- I want to leave [sept 13](depart_date)
+- I want to leave [oct 10](depart_date)
+- I want to leave [oct 13](depart_date)
+- I want to leave [nov 14](depart_date)
+- I want to leave [dec 17](depart_date)
+- I want to leave [dec 27](depart_date)
+- I want to leave [nov 13](depart_date)
+- I want to be back [jan 12](return_date)
+- I want to be back [jan 3](return_date)
+- I want to be back [feb 2](return_date)
+- I want to be back [feb 18](return_date)
+- I want to be back [mar 9](return_date)
+- I want to be back [mar 23](return_date)
+- I want to be back [apr 24](return_date)
+- I want to be back [apr 17](return_date)
+- I want to be back [may 12](return_date)
+- I want to be back [may 16](return_date)
+- I want to be back [june 17](return_date)
+- I want to be back [june 16](return_date)
+- I want to be back [july 12](return_date)
+- I want to be back [july 15](return_date)
+- I want to be back [aug 10](return_date)
+- I want to be back [aug 2](return_date)
+- I want to be back [sept 18](return_date)
+- I want to be back [sept 13](return_date)
+- I want to be back [oct 10](return_date)
+- I want to be back [oct 13](return_date)
+- I want to be back [nov 14](return_date)
+- I want to be back [dec 17](return_date)
+- I want to be back [nov 13](return_date)
+- I want to be back [dec 22](return_date)
+- My budget is [$2000](budget)
+- I am leaving from [toronto](origin)
+- My budget is [$1000](budget)
+- i want to go to [vancouver](destination)
+- imma leave from [toronto](origin)
+- i wanna leave [sept 1](depart_date)
+- i wanna be back [sept 20](return_date)
+- max [$500](budget)
+
+## intent:thankyou
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you good bye
+- you rock
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- okay thank you goodbye
+- uh thank you good bye
+- thank you goodbye
+- okay thank you
+- thanks goodbye
+- ah thank you goodbye
+- thank you noise
+- thank you good bye
+- thanks
+- noise thank you goodbye
+- uh okay thank you good bye
+- thank you bye
+- um okay thank you good bye
+- thank you
+
+## intent:chitchat
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+
+## intent:stop
+- ok then you cant help me
+- that was shit, you're not helping
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- stop go back
+- and that's it?
+- nothing else?
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+
